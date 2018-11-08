@@ -1,0 +1,168 @@
+/*Cor principal*/
+nav{
+    background-color: #4BB0B8;
+}
+
+/*Correção para não sobrepor o hambuger menu*/
+nav .brand-logo{
+    position: relative;
+    font-size: 1.3rem;
+}
+
+/* Tab-content */
+.tab-content{
+    padding: 3%;
+    
+}
+
+.tabs-content{
+    height: 550px !important;  
+    overflow-y: auto;
+}
+
+/* Configurações do Card */
+.number-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    color: #4BB0B8;
+}
+
+.card .card-content {
+    padding: 15px 15px 0 15px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .card-action {
+    padding: 5px;
+}
+
+/* Configuração da Lista de Arquivos */
+
+.collapsible-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    border: none !important;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.collapsible-header i {
+    width: 2rem;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+}
+
+.collapsible{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    margin: 5px 0;
+}
+
+.collapsible-body {
+    display: none;
+    border-bottom: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+
+.files-list li a{
+    text-transform: none !important;
+    color: #4BB0B8 !important;    
+}
+
+/* Chat block */
+.messages {
+    height: 150px;
+    min-height: calc(100% - 93px);
+    max-height: calc(100% - 105px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.messages::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+.messages::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.messages ul li {
+    clear: both;
+    float: left;
+    margin: 5px;
+    width: calc(100% - 25px);
+    font-size: 0.9em;
+    color: white;
+}
+
+.messages ul li.msg-left p {
+    background: #4BB0B8;
+    border-radius: 30px 30px 30px 0;
+}
+.messages ul li.msg-right p {
+    background: #92B535;
+    float: right;
+    border-radius: 30px 30px 0 30px;
+}
+.messages ul li p {
+    display: inline-block;
+    padding: 10px 15px;
+    max-width: 70%;
+    line-height: 130%;
+    margin: 0;
+}
+
+.input-message{
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+
+
+/* Utils */
+.text-black{
+    color: black;
+}
+
+.text-gray{
+    color: #666;
+}
+
+.text-min{
+    color: #666;
+    font-size: 1rem;
+    line-height: 110%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.np{
+    padding: 0 !important;
+}
+
+.nm{
+    margin: 0 !important;
+}
+
+.nmb{
+    margin-bottom: 0 !important;
+}
+
