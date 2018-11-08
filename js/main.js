@@ -4,7 +4,7 @@ $(document).ready(function(){
     var sidenav = M.Sidenav.init($('.sidenav'));
 
     // Starts Tabs
-    var tabs = M.Tabs.init($('.tabs'));
+    var tabs = M.Tabs.init($('.tabs'), {swipeable: false});
 
     // Start Collapsible
     var collapsible = M.Collapsible.init($('.collapsible'), 
