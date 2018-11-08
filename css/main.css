@@ -83,6 +83,7 @@ nav .brand-logo{
 
 .files-list li a{
     text-transform: none !important;
+    text-decoration: underline;
     color: #4BB0B8 !important;    
 }
 
